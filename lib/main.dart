@@ -1,3 +1,4 @@
+import 'package:curely/features/splash/presentation/views/splash_view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -12,7 +13,7 @@ class Curely extends StatelessWidget {
   Widget build(BuildContext context) {
     return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(body: Center(child: Text('Hello, Curely!'))),
+      home: SplashView(),
     );
   }
 }
